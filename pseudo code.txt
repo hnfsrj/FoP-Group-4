@@ -1,0 +1,34 @@
+start the program
+set the stores variable equal to the number of warehouses
+set the products variable equal to the number of products
+create a new nested array using stores and products variable
+set all values in the nested array to zero
+create a new bigTotal array to store the whole total of products in warehouses for later
+
+display the name of the program
+display the choices of what to do
+store the choice in a variable
+
+if the choice is 1 then ask the user questions about the product and warehouse number to add to. And also ask the number of items to add
+
+if the user inputs 0 at any moment then go back to home or first choices.
+
+if the user inserts the right info then increase the number of items in the stated warehouse by the stated quantity. If not display error message
+
+if the choice is 2 ask if the user wants to search based on the product or store keeper
+if the user chooses to search by product then ask for the product number and then go through the warehouses variable and display a table showing the number of that product in every warehouse.
+
+if the user inputs 0 then go back to home
+
+if the user chooses to search by store keeper then ask for the store number and display the number of every products in that store.
+
+if the user inputs 0 then go back to home or the first choice
+
+if the user inputs values greater than the number of products or warehouses then display an invalid input message.
+
+if the user chooses 3 or to get a report, then go through the whole warehouse array and display the contents of that array in a table form while calculating the total values of every row and column to display it at the far right and far bottom of the table respectively.
+
+and then calculate five percent bonus for the store keepers based on the total products in their stores and display it at the bottom of the table
+
+it the user inputs 0 at the home page or the first choice then quit
+and if the user inputs anything other than 0,1,2,3, and 4 then display an invalid input message but dont quit
